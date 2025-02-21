@@ -13,7 +13,7 @@ export default function Page() {
 
     try {
       const parsedInput = JSON.parse(input);
-      const res = await fetch("https://bajaj-shiv-backend.onrender.com/bfhl", {
+      const res = await fetch("https://backend-bajaj-90c8.onrender.com/bfhl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
